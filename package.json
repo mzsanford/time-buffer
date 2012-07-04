@@ -1,0 +1,22 @@
+{
+  "author": "Matt Sanford <matt@mzsanford.com> (http://mzsanford.com)",
+  "name": "time-buffer",
+  "description": "Second granularity for time-sensitve averages",
+  "version": "0.0.1",
+  "main": "./time-buffer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzsanford/time-buffer.git"
+  },
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "scripts": {
+      "test": "vows --spec test/*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "optionalDependencies": {}
+}
