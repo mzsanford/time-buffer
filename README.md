@@ -1,4 +1,4 @@
-time-buffer
+time-buffer [![Build Status](https://secure.travis-ci.org/mzsanford/time-buffer.png?branch=master)](http://travis-ci.org/mzsanford/time-buffer)
 ===========
 
 Storing per-second granularity data in a standard circular buffer leaves old values in place if there is nothing collected. This can lead to the illusion of newly arrived data when in fact there has simply been nothing to overwrite the buffer. The possible solutions are a 'reaper' thread/interval that clears out old buffers or a queue of values from which old values are removed. This library takes the latter approach through it may eventually support both. Here is an example:
