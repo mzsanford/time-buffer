@@ -19,4 +19,4 @@ Storing per-second granularity data in a standard circular buffer leaves old val
     	console.log(bufferFiveSec);
     	console.log(bufferOneMin);
     	console.log(bufferTwoMin);
-    }, 2000); // Even at 2 seconds this works. We time-buffer handles the gaps correctly.
+    }, 2000); // Even at 2 seconds this works because time-buffer handles the gaps correctly.
